@@ -18,10 +18,10 @@ build-vigilante:
 	@$(MAKE) -C $(GIT_TOPLEVEL)/vigilante build-docker
 
 build-btc-staker-phase-3:
-	@$(MAKE) -C $(GIT_TOPLEVEL)/btc-staker-phase-3 build-docker
+	@$(MAKE) -C $(GIT_TOPLEVEL)/btc-staker build-docker
 
 build-finality-provider-phase-3:
-	@$(MAKE) -C $(GIT_TOPLEVEL)/finality-provider-phase-3 build-docker
+	@$(MAKE) -C $(GIT_TOPLEVEL)/finality-provider build-docker
 
 build-covenant-emulator:
 	@$(MAKE) -C $(GIT_TOPLEVEL)/covenant-emulator build-docker
